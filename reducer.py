@@ -15,10 +15,10 @@ for line in sys.stdin:
         current_count += count
     else:
         if current_word is not None:
-            print(f"{current_word} {current_count}")
+            print(current_word, " ", current_count)
         current_word = word
         current_count = count
 
 # Afficher le dernier mot s'il y en a un
 if current_word is not None:
-    print(f"{current_word} {current_count}")
+    print(current_word, " ", current_count)

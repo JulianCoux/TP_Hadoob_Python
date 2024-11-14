@@ -8,4 +8,4 @@ for line in sys.stdin:
     mots = line.strip().split()
     # Affichage de chaque mot avec la valeur 1
     for mot in mots:
-        print(f"{mot} 1")
+        print(mot, "1")
